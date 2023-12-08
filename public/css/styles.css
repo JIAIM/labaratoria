@@ -1,0 +1,233 @@
+/* Стилі загального вигляду */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Стилі для розділів сторінки */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* Стилі для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Посилання */
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стилі для розділу "Документація" */
+#documentation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#documentation li {
+    margin-bottom: 10px;
+}
+
+#documentation a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#documentation a:hover {
+    text-decoration: underline;
+}
+
+#documentation a::before {
+    content: "📄 "; /* Додавання іконки до посилань */
+    margin-right: 5px;
+}
+
+/* Стилі для розділу "Договори" */
+#contracts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contracts li {
+    margin-bottom: 10px;
+}
+
+#contracts a {
+    text-decoration: none;
+    color: #E44236; /* Інший колір для посилань */
+}
+
+#contracts a:hover {
+    text-decoration: underline;
+}
+
+#contracts a::before {
+    content: "📝 "; /* Інша іконка для посилань */
+    margin-right: 5px;
+}
+
+/* Стилі для розділу "Прилади та Засоби" */
+#instruments table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#instruments th, #instruments td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#instruments th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#instruments tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#instruments th, #instruments td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#instruments a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#instruments a:hover {
+    text-decoration: underline;
+}
+/* Стилі для розділу "Облік Відвідувань" */
+#attendance table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#attendance th, #attendance td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#attendance th {
+    background-color: #FF6B6B;
+    color: #fff;
+}
+
+#attendance tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#attendance th, #attendance td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#attendance a {
+    text-decoration: none;
+    color: #FF6B6B;
+}
+
+#attendance a:hover {
+    text-decoration: underline;
+}
+
+#uploadButton {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#uploadButton:hover {
+    background-color: #45a049;
+}
+
+/* Стилі для розділу "Додати Візит" */
+#addVisit {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#addVisit label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#addVisit input,
+#addVisit textarea {
+    width: 99%;
+    padding: 8px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #ccc;
+}
+
+#addVisit button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#addVisit button:hover {
+    background-color: #0056b3;
+}
